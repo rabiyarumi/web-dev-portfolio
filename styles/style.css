@@ -223,3 +223,50 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer styles */
+
+footer {
+    background-color: #FFF8F3;
+    padding: 106px 230px;
+    justify-content: space-between;
+
+}
+.footer-column-container{
+    display: flex;
+    gap: 150px;
+} 
+.footer-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.footer-description {
+    font-size: 16px;
+    color: #474747;
+   
+}
+.footer-column {
+    width: 50%;
+}
+footer a {
+    margin-right: 24px;
+}
+footer input {
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    background-color: white;
+
+}
+footer textarea {
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 30px;
+    background-color: white;
+}
